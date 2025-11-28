@@ -1,112 +1,247 @@
 [
     {
-      "id": 1,
-      "header": "Cover page",
-      "type": "Cover page",
-      "status": "In Process",
-      "target": "18",
-      "limit": "5",
-      "reviewer": "Eddie Lake"
-    },
-    {
-      "id": 2,
-      "header": "Table of contents",
-      "type": "Table of contents",
-      "status": "Done",
-      "target": "29",
-      "limit": "24",
-      "reviewer": "Eddie Lake"
-    },
-    {
-      "id": 3,
-      "header": "Executive summary",
-      "type": "Narrative",
-      "status": "Done",
-      "target": "10",
-      "limit": "13",
-      "reviewer": "Eddie Lake"
-    },
-    {
-      "id": 4,
-      "header": "Technical approach",
-      "type": "Narrative",
-      "status": "Done",
-      "target": "27",
-      "limit": "23",
-      "reviewer": "Jamik Tashpulatov"
-    },
-    {
-      "id": 5,
-      "header": "Design",
-      "type": "Narrative",
-      "status": "In Process",
-      "target": "2",
-      "limit": "16",
-      "reviewer": "Jamik Tashpulatov"
-    },
-    {
-      "id": 6,
-      "header": "Capabilities",
-      "type": "Narrative",
-      "status": "In Process",
-      "target": "20",
-      "limit": "8",
-      "reviewer": "Jamik Tashpulatov"
-    },
-    {
-      "id": 7,
-      "header": "Integration with existing systems",
-      "type": "Narrative",
-      "status": "In Process",
-      "target": "19",
-      "limit": "21",
-      "reviewer": "Jamik Tashpulatov"
-    },
-    {
-      "id": 8,
-      "header": "Innovation and Advantages",
-      "type": "Narrative",
-      "status": "Done",
-      "target": "25",
-      "limit": "26",
-      "reviewer": "Assign reviewer"
-    },
-    {
-      "id": 9,
-      "header": "Overview of EMR's Innovative Solutions",
-      "type": "Technical content",
-      "status": "Done",
-      "target": "7",
-      "limit": "23",
-      "reviewer": "Assign reviewer"
-    },
-    {
-      "id": 10,
-      "header": "Advanced Algorithms and Machine Learning",
-      "type": "Narrative",
-      "status": "Done",
-      "target": "30",
-      "limit": "28",
-      "reviewer": "Assign reviewer"
-    },
-    {
-      "id": 11,
-      "header": "Adaptive Communication Protocols",
-      "type": "Narrative",
-      "status": "Done",
-      "target": "9",
-      "limit": "31",
-      "reviewer": "Assign reviewer"
-    },
-    {
-      "id": 12,
-      "header": "Advantages Over Current Technologies",
-      "type": "Narrative",
-      "status": "Done",
-      "target": "12",
-      "limit": "0",
-      "reviewer": "Assign reviewer"
-    },
+    "id": 1,
+    "header": "Unauthorized Access Attempt",
+    "type": "Security Breach",
+    "status": "In Process",
+    "target": "192.168.1.105",
+    "limit": "High",
+    "reviewer": "Security Team"
+  },
+  {
+    "id": 2,
+    "header": "Malware Detection",
+    "type": "Malicious Software",
+    "status": "Done",
+    "target": "192.168.1.87",
+    "limit": "Critical",
+    "reviewer": "Incident Response"
+  },
+  {
+    "id": 3,
+    "header": "Phishing Email Campaign",
+    "type": "Social Engineering",
+    "status": "In Process",
+    "target": "Multiple Users",
+    "limit": "Medium",
+    "reviewer": "Security Team"
+  },
+  {
+    "id": 4,
+    "header": "SQL Injection Attack",
+    "type": "Web Application Attack",
+    "status": "Done",
+    "target": "api.example.com",
+    "limit": "Critical",
+    "reviewer": "Incident Response"
+  },
+  {
+    "id": 5,
+    "header": "DDoS Attack",
+    "type": "Network Attack",
+    "status": "In Process",
+    "target": "www.example.com",
+    "limit": "High",
+    "reviewer": "Network Security"
+  },
+  {
+    "id": 6,
+    "header": "Brute Force Login Attempts",
+    "type": "Authentication Attack",
+    "status": "Done",
+    "target": "ssh.server.com",
+    "limit": "High",
+    "reviewer": "Security Team"
+  },
+  {
+    "id": 7,
+    "header": "Ransomware Activity",
+    "type": "Malicious Software",
+    "status": "In Process",
+    "target": "192.168.2.45",
+    "limit": "Critical",
+    "reviewer": "Incident Response"
+  },
+  {
+    "id": 8,
+    "header": "Data Exfiltration Attempt",
+    "type": "Data Breach",
+    "status": "Done",
+    "target": "database-01",
+    "limit": "Critical",
+    "reviewer": "Security Team"
+  },
+  {
+    "id": 9,
+    "header": "Cross-Site Scripting (XSS)",
+    "type": "Web Application Attack",
+    "status": "In Process",
+    "target": "portal.example.com",
+    "limit": "Medium",
+    "reviewer": "Web Security"
+  },
+  {
+    "id": 10,
+    "header": "Port Scanning Activity",
+    "type": "Reconnaissance",
+    "status": "Done",
+    "target": "10.0.0.0/8",
+    "limit": "Low",
+    "reviewer": "Network Security"
+  },
+  {
+    "id": 11,
+    "header": "Privilege Escalation",
+    "type": "System Compromise",
+    "status": "In Process",
+    "target": "server-prod-03",
+    "limit": "Critical",
+    "reviewer": "Incident Response"
+  },
+  {
+    "id": 12,
+    "header": "Zero-Day Exploit Detected",
+    "type": "Advanced Threat",
+    "status": "In Process",
+    "target": "Multiple Systems",
+    "limit": "Critical",
+    "reviewer": "Threat Intelligence"
+  },
+  {
+    "id": 13,
+    "header": "Insider Threat Activity",
+    "type": "Insider Threat",
+    "status": "Done",
+    "target": "User: jsmith",
+    "limit": "High",
+    "reviewer": "Security Team"
+  },
+  {
+    "id": 14,
+    "header": "Cryptojacking Detected",
+    "type": "Malicious Software",
+    "status": "Done",
+    "target": "192.168.3.12",
+    "limit": "Medium",
+    "reviewer": "Security Team"
+  },
+  {
+    "id": 15,
+    "header": "DNS Tunneling",
+    "type": "Command and Control",
+    "status": "In Process",
+    "target": "dns.malicious.com",
+    "limit": "High",
+    "reviewer": "Network Security"
+  },
+  {
+    "id": 16,
+    "header": "Credential Stuffing Attack",
+    "type": "Authentication Attack",
+    "status": "Done",
+    "target": "login.example.com",
+    "limit": "High",
+    "reviewer": "Security Team"
+  },
+  {
+    "id": 17,
+    "header": "Man-in-the-Middle Attack",
+    "type": "Network Attack",
+    "status": "In Process",
+    "target": "192.168.1.1",
+    "limit": "Critical",
+    "reviewer": "Network Security"
+  },
+  {
+    "id": 18,
+    "header": "Backdoor Installation",
+    "type": "System Compromise",
+    "status": "In Process",
+    "target": "web-server-02",
+    "limit": "Critical",
+    "reviewer": "Incident Response"
+  },
+  {
+    "id": 19,
+    "header": "Supply Chain Attack",
+    "type": "Advanced Threat",
+    "status": "Done",
+    "target": "Third-party Vendor",
+    "limit": "Critical",
+    "reviewer": "Threat Intelligence"
+  },
+  {
+    "id": 20,
+    "header": "API Abuse",
+    "type": "Web Application Attack",
+    "status": "In Process",
+    "target": "api.v2.example.com",
+    "limit": "Medium",
+    "reviewer": "Web Security"
+  },
+  {
+    "id": 21,
+    "header": "Spyware Detection",
+    "type": "Malicious Software",
+    "status": "Done",
+    "target": "workstation-045",
+    "limit": "High",
+    "reviewer": "Security Team"
+  },
+  {
+    "id": 22,
+    "header": "Session Hijacking",
+    "type": "Authentication Attack",
+    "status": "In Process",
+    "target": "app.example.com",
+    "limit": "High",
+    "reviewer": "Web Security"
+  },
+  {
+    "id": 23,
+    "header": "Keylogger Activity",
+    "type": "Malicious Software",
+    "status": "Done",
+    "target": "192.168.4.78",
+    "limit": "Critical",
+    "reviewer": "Incident Response"
+  },
+  {
+    "id": 24,
+    "header": "Buffer Overflow Exploit",
+    "type": "System Compromise",
+    "status": "In Process",
+    "target": "legacy-app-server",
+    "limit": "Critical",
+    "reviewer": "Security Team"
+  },
+  {
+    "id": 25,
+    "header": "Rogue Access Point",
+    "type": "Network Attack",
+    "status": "Done",
+    "target": "Building B - Floor 3",
+    "limit": "High",
+    "reviewer": "Network Security"
+  },
+  {
+    "id": 26,
+    "header": "XXE Injection Attack",
+    "type": "Web Application Attack",
+    "status": "In Process",
+    "target": "xml-api.example.com",
+    "limit": "Medium",
+    "reviewer": "Web Security"
+  },
+  {
+    "id": 27,
+    "header": "Botnet Traffic Detected",
+    "type": "Command and Control",
+    "status": "In Process",
+    "target": "Multiple IPs",
+    "limit": "High",
+    "reviewer": "Network Security"
+  },
     {
       "id": 13,
       "header": "Past Performance",

@@ -76,23 +76,23 @@ export const leadsBySourceChartConfig = {
     label: "Leads",
   },
   website: {
-    label: "Website",
+    label: "DOS",
     color: "var(--chart-1)",
   },
   referral: {
-    label: "Referral",
+    label: "Exploits",
     color: "var(--chart-2)",
   },
   social: {
-    label: "Social Media",
+    label: "Fuzzers",
     color: "var(--chart-3)",
   },
   cold: {
-    label: "Cold Outreach",
+    label: "Generic",
     color: "var(--chart-4)",
   },
   other: {
-    label: "Other",
+    label: "Reconnaissances",
     color: "var(--chart-5)",
   },
 } as ChartConfig;
@@ -143,39 +143,48 @@ export const salesPipelineChartConfig = {
 
 export const regionSalesData = [
   {
-    region: "North America",
-    sales: 37800,
+    region: "Server 1",
+    percentage: 42,
+  },
+  {
+    region: "Server 2",
+    percentage: 18,
+  },
+  {
+    region: "Server 3",
+    percentage: 56,
+  },
+  {
+    region: "Server 4",
+    percentage: 23,
+  },
+  {
+    region: "Server 5",
+    percentage: 67,
+  },
+  {
+    region: "Server 6",
     percentage: 31,
-    growth: "-3.2%",
-    isPositive: false,
   },
   {
-    region: "Europe",
-    sales: 40100,
-    percentage: 34,
-    growth: "+9.4%",
-    isPositive: true,
+    region: "Server 7",
+    percentage: 15,
   },
   {
-    region: "Asia Pacific",
-    sales: 30950,
-    percentage: 26,
-    growth: "+12.8%",
-    isPositive: true,
+    region: "Server 8",
+    percentage: 49,
   },
   {
-    region: "Latin America",
-    sales: 12200,
-    percentage: 7,
-    growth: "-1.7%",
-    isPositive: false,
+    region: "Server 9",
+    percentage: 28,
   },
   {
-    region: "Middle East & Africa",
-    sales: 2450,
-    percentage: 2,
-    growth: "+6.0%",
-    isPositive: true,
+    region: "Server 10",
+    percentage: 37,
+  },
+  {
+    region: "Server 11",
+    percentage: 61,
   },
 ];
 
