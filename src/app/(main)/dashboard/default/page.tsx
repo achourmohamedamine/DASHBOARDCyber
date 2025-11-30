@@ -1,5 +1,8 @@
 "use client";
 import { toast } from "sonner";
+
+import AttackWatcher from "@/components/ui/Attack_listener";
+
 import { InsightCards } from "../crm/_components/insight-cards";
 import { OperationalCards } from "../crm/_components/operational-cards";
 
@@ -7,7 +10,6 @@ import { ChartAreaInteractive } from "./_components/chart-area-interactive";
 import { DataTable } from "./_components/data-table";
 import data from "./_components/data.json";
 import { SectionCards } from "./_components/section-cards";
-import AttackWatcher from "@/components/ui/Attack_listener";
 
 export default function Page() {
   return (
